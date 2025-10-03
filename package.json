@@ -1,0 +1,22 @@
+{
+  "name": "first-ai-agent",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Siddh Jain",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@langchain/google-genai": "^0.2.18",
+    "@langchain/langgraph": "^0.4.9",
+    "@langchain/openai": "^0.6.14",
+    "axios": "^1.12.2",
+    "dotenv": "^17.2.3",
+    "nodemon": "^3.1.10",
+    "zod": "^3.25.76"
+  }
+}
